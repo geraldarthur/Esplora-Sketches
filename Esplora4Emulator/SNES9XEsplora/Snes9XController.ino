@@ -18,7 +18,7 @@ boolean secButtons = false; // decides when to map the buttons differently
 
 const byte buttons[] = {JOYSTICK_DOWN, JOYSTICK_UP, JOYSTICK_LEFT, JOYSTICK_RIGHT, SWITCH_DOWN, SWITCH_UP, SWITCH_LEFT, SWITCH_RIGHT, CH_JOYSTICK_SW};
 const char corspKeys[] = {KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_LEFT_ARROW, KEY_RIGHT_ARROW, 's', 'w', 'a', 'd'};
-const char seccorspKeys[] = {KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_LEFT_ARROW, KEY_RIGHT_ARROW, KEY_RETURN, 'q', 'e', ' '};
+const char seccorspKeys[] = {KEY_DOWN_ARROW, KEY_UP_ARROW, KEY_LEFT_ARROW, KEY_RIGHT_ARROW, KEY_ESC, 'q', 'e', ' '};
 
 void setup() {
   Keyboard.begin();
@@ -67,4 +67,3 @@ void loop() {
   }
   delay(50);
 }
-

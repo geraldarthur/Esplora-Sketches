@@ -44,9 +44,9 @@ void loop() {
           if (newState == PRESSED) {
             Keyboard.press(corspKeys[Button]);
             if ((Button == 4) || (Button == 7))
-              Esplora.writeRGB(148,0,211); // purple for bottom buttons }
+              Esplora.writeRGB(160,0,240); // purple for bottom buttons }
             if ((Button == 5) || (Button == 6))
-              Esplora.writeRGB(255,105,180); //pink for top buttons }
+              Esplora.writeRGB(255,20,147); //pink for top buttons }
           }
           else if (newState == RELEASED) {
             Keyboard.release(corspKeys[Button]);
